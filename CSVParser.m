@@ -61,7 +61,7 @@ fieldNames:(NSArray *)names
             separatorIsSingleChar = YES;
         }
 
-        if(fieldNames) {
+        if(names) {
             fieldNames = [names retain];
         }
         else if(header) {            
