@@ -145,7 +145,7 @@ fieldNames:(NSArray *)names
 //
 - (NSDictionary *)nextRow
 {
-    NSDictionary *record = [[self parseRecord] retain];
+    NSDictionary *record = [self parseRecord];
     [self parseLineSeparator];
     return record;
 }
